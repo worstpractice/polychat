@@ -1,0 +1,23 @@
+.message-editor {
+    background-color: #eee;
+    height: 30px;
+    display:flex;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    // border-top: 1px solid black;
+    
+    input {
+        flex:1;
+        border: 0.5px solid $mainDark;
+        border-radius:  20px;
+        margin-left: 5px;
+        outline: none;
+        font-size: $fontSmall;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    button{
+        margin-left: 2px;
+    }
+}

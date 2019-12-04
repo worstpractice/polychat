@@ -1,0 +1,52 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Kamel's graduation project",
+  "main": "server.js",
+  "author": "Kamel",
+  "license": "MIT",
+  "scripts": {
+    "lint": "esw -w --clear",
+    "dev": "NODE_ENV=dev nodemon ./src/server.js --exec \"node --require 'dotenv/config'\"",
+    "test": "jest --setupFiles dotenv/config",
+    "test:watch": "jest --watchAll --setupFiles dotenv/config"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^5.0.2",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-ws": "^4.0.0",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "project-name-generator": "^2.1.7",
+    "uuid": "^3.3.3",
+    "websocket": "^1.0.30",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-watch": "^6.0.1",
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2",
+    "mock-socket": "^9.0.2",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=12.12.0",
+    "yarn": ">=1.19.1"
+  }
+}
