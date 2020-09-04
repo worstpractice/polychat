@@ -10,7 +10,7 @@
     "iso-639-1": "^2.1.0",
     "jsxstyle": "^2.1.6",
     "node-record-lpcm16": "^1.0.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-burger-menu": "^2.6.12",
     "react-dom": "^16.12.0",
